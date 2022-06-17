@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_times_table - Print the `n` times table, starting with 0.
- * Description: If `n` is greater than 15 or less than 0, print nothing.
+ * print_times_table - produces the n times table, starting with 0.
+ * 
  * @n: int type number
  */
 
@@ -12,12 +12,12 @@ void print_times_table(int n)
 
 	if (n > 15 || n < 0)
 		return;
-	while (x <= n)
+	while (a <= n)
 	{
 		for (b = 0; b <= n; b++)
 		{
 			c = a * b;
-			if (z > 99)
+			if (c > 99)
 			{
 				_putchar(c / 100 + '0');
 				_putchar((c / 10 % 10) + '0');
