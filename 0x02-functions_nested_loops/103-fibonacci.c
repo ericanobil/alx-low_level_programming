@@ -1,1 +1,26 @@
-A program that finds and prints the sum of the even-valued terms
+#include <stdio.h>
+
+/**
+ * main - main body of the code block
+ * Description: this prgm prints the sum of even Fibonacci numbers up to a fib value
+ * Value should not exceed 4,000,000.
+ * Return: 0
+ */
+
+int main(void)
+{
+	int a = 1, b = 2, total = 0;
+	int c;
+
+	while (b < 4000000)
+	{
+		if (b % 2 == 0)
+			total += b;
+
+		c = b;
+		b += a;
+		a = c;
+	}
+	printf("%d\n", total);
+	return (0);
+}
