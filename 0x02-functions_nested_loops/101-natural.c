@@ -3,11 +3,9 @@
  #include <math.h>
 
 /**
-
-* main :-  the main body of the ode block
-* Description :- Produces the sum of all the multiples of 3 or 5 below 1024
-* Return :- 0
-
+* main -  the main body of the code block
+* Description : Produces the sum of all the multiples of 3 or 5 below 1024
+* Return : 0
 */
 
 
@@ -29,5 +27,3 @@ int main(void)
  
          return (0);
 }
-                           
-
