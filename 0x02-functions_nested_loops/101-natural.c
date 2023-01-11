@@ -4,7 +4,7 @@
 
 /**
  * main - main body of the code block
- * Description:- a programme that prints the sum of all multiples of 3 or 5 below 1024.
+ * Description:-this programme prints the sum of all multiples of 3 or 5 below 1024.
  * Return:- 0
  */
 
