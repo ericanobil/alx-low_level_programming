@@ -2,8 +2,8 @@
 
 /**
  * main - main body of the code block
- * Description: this prgm prints the sum of even Fibonacci numbers up to a fib value
- * Value should not exceed 4,000,000.
+ * Description: the prgm prints the sum of even Fibonacci numbers
+ * Value does not exceed 4,000,000.
  * Return: 0
  */
 
