@@ -1,5 +1,5 @@
 #include "main.h"
-#iclude <stdio.h>
+#include <stdio.h>
 
 /**
   * _isupper - checks whether passed character is uppercase
