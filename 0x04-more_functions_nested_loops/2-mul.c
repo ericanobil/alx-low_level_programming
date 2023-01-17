@@ -1,16 +1,16 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
   * mul - multiplies two digits
-  * @x: first digit
-  * @y: second digit
+  * @a: first digit
+  * @b: second digit
   *
   *Return: 1 if it's succesfully run
   */
-int mul(int x, int y)
+int mul(int a, int b)
 {
-	int z;
+	int y;
 
-	z = x * y;
-	return (z);
+	y = a * b;
+	return (y);
 }
