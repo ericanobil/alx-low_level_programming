@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
   * print_number - prints a number passed to it.
   * @n: number to be printed
